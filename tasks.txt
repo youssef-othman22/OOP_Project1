@@ -1,0 +1,18 @@
+    std::cout << "School Management System\n";
+    std::cout << "1. Add a new Student\n";
+    std::cout << "2. Assign a Subject to a Student\n";
+    std::cout << "3. View all Professors\n";
+    std::cout << "4. Mark Attendance\n";
+    std::cout << "5. View Grades\n";
+    std::cout << "6. make a classromm\n"
+    std::cout << "7. add a student to the classromm\n";
+    std::cout << "8. remove a student from the classrom\n";
+    std::cout << "9. assign a subject to Professor\n";
+    std::cout << "10. Exit\n";
+    std::cout << "Enter your choice: ";
+
+
+    Super Important !!
+    make all subjects of final grade 100
+    and sassign grades for every student 
+    and add calculate GPA Feature to the student class
