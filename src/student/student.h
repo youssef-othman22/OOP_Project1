@@ -11,7 +11,7 @@ public:
   int getID();
   void setID(int id);
   double getGPA();
-
+  void setGPA ();
 private:
   int id;
   double GPA;

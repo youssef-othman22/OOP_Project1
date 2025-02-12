@@ -1,5 +1,6 @@
 #include "person.h"
 #include <string>
+Person::Person(){}
 Person::Person(std::string name, int age) {
 this->name = name ;
 this->age = age ;

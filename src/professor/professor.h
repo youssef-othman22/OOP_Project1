@@ -1,8 +1,8 @@
-#include "../depend/dep.cpp"
+
 
 class Professor {
 public:
-  Professor() {};
+  Professor();
 };
 
 // fill the rest of the interface here
