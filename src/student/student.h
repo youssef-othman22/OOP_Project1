@@ -1,15 +1,19 @@
-#include "./depend/dep.cpp"
-#include "./subject/subject.h"
+#include <vector>
+#include <string>
+#include "../person/person.h"
 
-class Student {
+
+class Subject;
+
+class Student : public Person{
 public:
-  Student() {}
-  int getID() {}
-  void setID(double id) {}
-  double getGPA() {}
-  void setAge(int age) {}
+  Student();
+  int getID();
+  void setID(int id);
+  double getGPA();
+
 private:
-  int age;
+  int id;
   double GPA;
-  vector<Subject> subs; 
+  std::vector<Subject> subs;
 };
